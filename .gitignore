@@ -1,2 +1,2 @@
-.terraform/providers/...
+.terraform/
 /terraform.lock.hcl
