@@ -46,7 +46,7 @@ resource "aws_vpc_security_group_egress_rule" "my_outbond" {
   cidr_ipv4 = "::/0"
 }
 
-# aws ec2 instance
+# aws ec2 instances
 
 resource "aws_instance" "my_ec2" {
   key_name = aws_key_pair.my-key.key_name
